@@ -84,20 +84,25 @@ Dataset: MNIST
 
 Framework: PyTorch
 
-Uploading to GitHub
-Once these files are in your project folder:
+yaml
+Copy
+Edit
+
+---
+
+## ✅ What to Do
+1. Open your file:
+```bash
+nano README.md
+Replace everything with the version above.
+
+Save (Ctrl+O → Enter → Ctrl+X)
+
+Commit & push:
 
 bash
 Copy
 Edit
-# initialize repo
-git init
-git add .
-git commit -m "Initial commit - Simple CNN on MNIST"
-
-# create GitHub repo from website, then link:
-git remote add origin https://github.com/USERNAME/cnn-project.git
-
-# push to GitHub
-git branch -M main
-git push -u origin main
+git add README.md
+git commit -m "Clean final README"
+git push
