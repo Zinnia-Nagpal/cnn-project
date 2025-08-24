@@ -34,31 +34,20 @@ Edit
 pip install -r requirements.txt
 Usage
 1. Train the model
-bash
-Copy
-Edit
 python src/train.py
-Trains the CNN on MNIST
 
+Trains the CNN on MNIST
 Prints training loss & test accuracy
 
 Saves weights to models/mnist_cnn.pth
-
 2. Test the model
-bash
-Copy
-Edit
 python src/test.py
-Reloads the saved model
 
+Reloads the saved model
 Evaluates test set accuracy
 
 Prints prediction on a sample image
-
 Sample Output
-yaml
-Copy
-Edit
 Epoch 1/5 - train loss: 0.1126
 Epoch 2/5 - train loss: 0.0398
 Epoch 3/5 - train loss: 0.0276
@@ -66,43 +55,24 @@ Epoch 4/5 - train loss: 0.0207
 Epoch 5/5 - train loss: 0.0143
 Accuracy: 98.89%
 Predicted: 7, Actual: 7
+
 Example Prediction
 Here’s a sample MNIST digit and the model’s prediction:
-
 <img src="preview.png" alt="Sample prediction" width="200"/>
+
+
 Next Steps
 Visualize misclassified digits
-
 Try Fashion-MNIST or CIFAR-10
-
 Add dropout & batch normalization for better generalization
-
 Deploy with Flask/Streamlit (draw a digit → get prediction live)
 
 Credits
 Dataset: MNIST
-
 Framework: PyTorch
 
-yaml
-Copy
-Edit
-
----
-
-## ✅ What to Do
-1. Open your file:
-```bash
-nano README.md
-Replace everything with the version above.
-
-Save (Ctrl+O → Enter → Ctrl+X)
-
+##  What to Do
 Commit & push:
-
-bash
-Copy
-Edit
 git add README.md
 git commit -m "Clean final README"
 git push
